@@ -61,3 +61,57 @@ footer {
     background-color:$mycolor-5; 
   }
 }
+
+
+
+
+/*              NAVIGATIE               */
+
+
+.test{
+  background-image: url(images/paper.jpg)
+}
+.navigatie {
+  background-color:#57130C;
+  text-align: right;
+  padding: 11px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.tekstnav {
+  color: white;
+  font-size: 22px;
+  padding-left: 600px;
+}
+
+/*              CONTAINER               */
+
+.hoofd {
+  margin-top: 66px;
+}
+
+/*              INDEX LOGO               */
+
+.logonormaal {
+  width: 450px;
+  float: left; margin-left: 10px; margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.tekstlogo {
+  float: left;
+}
+
+
+
+/*              INDEX kleur               */
+
+.kleurenfoto {
+  width: 600px;
+  margin-top: 30px;
+  text-align: center;
+}
+

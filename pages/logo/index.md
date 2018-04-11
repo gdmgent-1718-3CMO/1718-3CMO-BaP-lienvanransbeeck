@@ -7,8 +7,7 @@ title: Logo
 
 
 
-
-<h1>Het logo </h1>
+<h1 class="achtergrond headtekst">Logo </h1>
 
 <h2>Logo & letterlogo</h2>
 

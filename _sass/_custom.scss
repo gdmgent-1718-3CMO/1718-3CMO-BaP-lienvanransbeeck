@@ -28,7 +28,7 @@ body {
 }
 
 footer {
-    background-color: $mycolor-2;
+    background-color: $mycolor-5;
     color: $color-white;
     a {
         color: $color-white;
@@ -58,7 +58,7 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color:$mycolor-1; 
   }
 }
 
@@ -115,3 +115,12 @@ footer {
   text-align: center;
 }
 
+.achtergrond {
+  background-image: url(../images/paper.jpg)
+}
+
+.headtekst {
+  color: #57130C;
+  padding: 115px;
+  font-size:130px;
+}

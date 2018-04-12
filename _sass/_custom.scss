@@ -77,6 +77,11 @@ footer {
 
 
 
+.konteiner {
+  margin-left: 70px;
+}
+
+
 /*              NAVIGATIE               */
 
 
@@ -91,12 +96,14 @@ footer {
 
 .logo {
   width: 120px;
+  margin: 10px;
+  margin-left: 110px;
 }
 
 .tekstnav {
   color: white;
   font-size: 22px;
-  padding-left: 560px;
+  padding-left: 400px;
   margin-right: 20px;
 }
 
@@ -126,8 +133,12 @@ footer {
   padding-top:91px;
 }
 
+h1 {
+   margin-bottom: 40px;
+}
 h2 {
-  margin: 5rem  0rem !important;
+  margin-bottom: 40px;
+  margin-top: 60px;
   font-size: 48px !important; 
 }
 
@@ -170,6 +181,14 @@ p {
   padding-top: 25px;
 }
 
+/*           STYLEGUIDE     */
+
+.headtekststijl{
+  color: #57130C;
+  padding: 82px;
+  font-size:100px;
+  margin-bottom: 50px;
+}
 
 /*            FOOTER       */
 
@@ -188,3 +207,4 @@ p {
 .leeg {
   height: 300px;
 }
+

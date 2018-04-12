@@ -2,8 +2,20 @@
 ---------------------------------------------
 */
 .navbar a {
-    border: none;
-}
+    &:hover {
+      border-bottom: solid 2px $color-white;
+      color: white;
+    }
+    &:active{
+      border-bottom: solid 2px $color-white;
+      color: white;
+    }
+    &:focus{
+      border-bottom: solid 2px $color-white;
+      color: white;
+    }
+  }
+
 
 /* FOOTER
 ----------------------------------------------
@@ -32,7 +44,7 @@ footer {
     color: $color-white;
     a {
         color: $color-white;
-        &:hover {
+        &:hover {     border-bottom: solid 2px $body-link;
             
         }
     }
@@ -74,7 +86,7 @@ footer {
 .navigatie {
   background-color:#57130C;
   text-align: right;
-  padding: 11px;
+  padding-right: 100px;
 }
 
 .logo {
@@ -84,13 +96,16 @@ footer {
 .tekstnav {
   color: white;
   font-size: 22px;
-  padding-left: 600px;
+  padding-left: 560px;
+  margin-right: 20px;
 }
+
+
 
 /*              CONTAINER               */
 
 .hoofd {
-  margin-top: 66px;
+  margin-top: 30px;
 }
 
 /*              INDEX LOGO               */
@@ -101,10 +116,26 @@ footer {
   margin-top: 30px;
 }
 
+
 .tekstlogo {
   float: left;
+  padding-top: 120px;
 }
 
+.tekstzw {
+  padding-top:91px;
+}
+
+h2 {
+  margin: 5rem  1rem !important;
+  font-size: 48px !important; 
+  font-weight: bolder !important; 
+}
+
+h3 {
+  margin: 5rem  1rem !important;
+  font-size: 35px !important; 
+}
 
 
 /*              INDEX kleur               */
@@ -115,12 +146,27 @@ footer {
   text-align: center;
 }
 
-.achtergrond {
-  background-image: url(../images/paper.jpg)
+body {
+  background-image: url(../images/paper.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain !important;
+
 }
 
 .headtekst {
   color: #57130C;
-  padding: 115px;
+  padding: 82px;
   font-size:130px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*              INDEX typografie             */
+
+.font {
+  padding-top: 25px;
 }

@@ -35,11 +35,12 @@ a {
     &:hover{
         color: $body-link;
         text-decoration: none;
-        border-bottom: solid 1px $body-link;
+        border-bottom: solid 2px $body-link;
     }
     &:active{
         background-color: $body-link;
         color: $color-white;
+        
     }
     &:focus{}
 }

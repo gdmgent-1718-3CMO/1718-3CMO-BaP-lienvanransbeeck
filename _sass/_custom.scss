@@ -127,9 +127,8 @@ footer {
 }
 
 h2 {
-  margin: 5rem  1rem !important;
+  margin: 5rem  0rem !important;
   font-size: 48px !important; 
-  font-weight: bolder !important; 
 }
 
 h3 {
@@ -169,4 +168,23 @@ p {
 
 .font {
   padding-top: 25px;
+}
+
+
+/*            FOOTER       */
+
+.footer {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.footerc {
+  padding: 33px;
+}
+
+.leeg {
+  height: 300px;
 }

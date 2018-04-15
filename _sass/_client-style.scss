@@ -1,7 +1,6 @@
 
 .client-style {
   font-family: $clientfont-family-base;
-  $color: $clientcolor-1;
   border-bottom: 1px solid $color-grey-2;
   border-top: 1px solid $color-grey-2;
   margin: 1em 0 2em;
@@ -12,7 +11,9 @@
 
   a {
     color: $clientcolor-5;
-    &:hover {}
+    &:hover {
+      color: white;
+    }
     &:active {}
     &:focus{}
   }

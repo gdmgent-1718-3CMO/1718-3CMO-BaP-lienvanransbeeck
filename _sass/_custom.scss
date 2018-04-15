@@ -3,15 +3,12 @@
 */
 .navbar a {
     &:hover {
-      border-bottom: solid 2px $color-white;
-      color: white;
+      color: black;
     }
     &:active{
-      border-bottom: solid 2px $color-white;
       color: white;
     }
     &:focus{
-      border-bottom: solid 2px $color-white;
       color: white;
     }
   }
@@ -30,6 +27,7 @@ body {
     margin: 0;
     padding-bottom: 6rem;
     min-height: 100%;
+    background-color: white;
   }
 
 .bh-absolute-bottom {
@@ -78,55 +76,53 @@ footer {
 
 
 .konteiner {
-  margin-left: 70px;
+  margin-left: 25px;
 }
 
 
 /*              NAVIGATIE               */
 
 
-.test{
-  background-image: url(images/paper.jpg)
-}
 .navigatie {
-  background-color:#57130C;
+  background-color: #FAFAFA;
   text-align: right;
   padding-right: 100px;
 }
 
 .logo {
-  width: 120px;
-  margin: 10px;
-  margin-left: 110px;
+  width: 101px;
+  margin-left: 69px;
 }
 
 .tekstnav {
-  color: white;
-  font-size: 22px;
-  padding-left: 400px;
+  color: black;
+  font-size: 18px;
+  padding-left: 548px;
   margin-right: 20px;
 }
+
 
 
 
 /*              CONTAINER               */
 
 .hoofd {
-  margin-top: 30px;
 }
 
 /*              INDEX LOGO               */
 
 .logonormaal {
-  width: 450px;
-  float: left; margin-left: 10px; margin-bottom: 10px;
-  margin-top: 30px;
+  width: 1000px;
+  float: left;
+  margin-left: 10px;
 }
 
+.logoruimte {
+  width:600px;
+}
 
 .tekstlogo {
   float: left;
-  padding-top: 120px;
 }
 
 .tekstgewuun {
@@ -142,41 +138,56 @@ h1 {
 }
 h2 {
   margin-bottom: 40px;
-  margin-top: 60px;
   font-size: 48px !important; 
 }
 
 h3 {
-  margin: 5rem  1rem !important;
   font-size: 35px !important; 
 }
 
+.donts {
+  width: 1044px;
+  margin-top: 30px;
+
+}
 
 /*              INDEX kleur               */
 
 .kleurenfoto {
-  width: 600px;
+  width: 300px;
   margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-body {
-  background-image: url(../images/paper.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain !important;
 
-}
 
 .headtekst {
   color: #57130C;
-  padding: 82px;
-  font-size:130px;
-  margin-bottom: 50px;
+  padding-left: 38px;
+  font-size: 110px;
+  padding-top: 62px;
+  margin-bottom: 60px;
 }
 
 p {
   font-size: 20px;
+  line-height: 29px;
+}
+
+
+/*              INDEX typografie             */
+
+.headteksthome {
+  color: #57130C;
+  padding-left: 20px;
+  font-size: 110px;
+  padding-top: 62px;
+  padding-bottom: 53px;
+}
+
+.typotekst {
+  padding-top:75px;
 }
 
 /*              INDEX typografie             */
@@ -187,11 +198,13 @@ p {
 
 /*           STYLEGUIDE     */
 
-.headtekststijl{
+.headtekststijlgids {
   color: #57130C;
-  padding: 82px;
-  font-size:100px;
+  padding-left: 38px;
+  font-size: 110px;
   margin-bottom: 50px;
+  padding-top: 62px;
+  padding-bottom: 53px;
 }
 
 /*            FOOTER       */

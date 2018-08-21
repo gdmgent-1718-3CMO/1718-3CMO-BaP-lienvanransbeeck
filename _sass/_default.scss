@@ -16,8 +16,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight: $font-weight-light;
-    font-size: 4rem;
-    color: $color-grey-2;
+    font-size: 2rem;
+    color: #1E1E1E;
 }
 h2 {
     font-weight: $font-weight-light;
@@ -30,15 +30,14 @@ h3, h4, h5, h6 {
 }
 a {
     text-decoration: none;
-    color: $body-link;
+    color: #1E1E1E;;
     &:hover{
-        color: #57130C;
-        border-bottom: #57130C;
+        color: #299FB0;
+        border-bottom: #299FB0;
 
     }
     &:active{
-        background-color: $body-link;
-        color: $color-white;
+        color: #299FB0;
         
     }
     &:focus{}
@@ -66,27 +65,13 @@ main ul {
 
 //geordende lijstjes met een ander symbool of kleur
 main ol {
-    font-size:20px;
+    font-size: 15px;
+    line-height: 29px;
     list-style: none;  
     margin: 0 0 1em;
     padding: 0;
     counter-reset: i 0;
-    li {
-      padding-left: 25px;
-      text-indent: -25px;
-      margin-bottom: 0.8rem;
-      &:before {
-        counter-increment: i;
-        content: counter(i);    
-        padding: 3px 6px;
-        margin-right: 15px;
-        border-radius: 5px;
-        background-color: $mycolor-5;
-        color: $color-white;
-        font-family: $myfont-family-title;
-        font-weight: $font-weight-bold;
-      }    
-    }
+
   }
 
 //forms 

@@ -3,10 +3,10 @@
 */
 .navbar a {
     &:hover {
-      color: black;
+      color: #1E1E1E;
     }
     &:active{
-      color: white;
+      color: #1E1E1E;
     }
     &:focus{
       color: white;
@@ -38,7 +38,7 @@ body {
 }
 
 footer {
-    background-color: $mycolor-5;
+    background-color: #299FB0;
     color: $color-white;
     a {
         color: $color-white;
@@ -59,7 +59,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color:#1E1E1E; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -68,7 +68,7 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-1; 
+    background-color:#299FB0; 
   }
 }
 
@@ -84,19 +84,18 @@ footer {
 
 
 .navigatie {
-  background-color: #FAFAFA;
   text-align: right;
   padding-right: 100px;
 }
 
 .logo {
-  width: 101px;
+  width: 130px;
   margin-left: 69px;
 }
 
 .tekstnav {
-  color: black;
-  font-size: 18px;
+  color: #299FB0;
+  font-size: 16px;
   padding-left: 548px;
   margin-right: 20px;
 }
@@ -106,15 +105,19 @@ footer {
 
 /*              CONTAINER               */
 
-.hoofd {
+
+/*              INDEX HOME              */
+
+.knuffelfoto{
+  width: 400px;
+  float: left;
 }
 
 /*              INDEX LOGO               */
 
 .logonormaal {
-  width: 1000px;
-  float: left;
-  margin-left: 10px;
+  width: 550px;
+  margin-left: 80px;
 }
 
 .logoruimte {
@@ -138,11 +141,12 @@ h1 {
 }
 h2 {
   margin-bottom: 40px;
-  font-size: 48px !important; 
+  font-size: 25px !important; 
 }
 
 h3 {
-  font-size: 35px !important; 
+  font-size: 19px !important; 
+  color:#1E1E1E !important;
 }
 
 .donts {
@@ -154,7 +158,7 @@ h3 {
 /*              INDEX kleur               */
 
 .kleurenfoto {
-  width: 300px;
+  width: 750px;
   margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
@@ -163,15 +167,15 @@ h3 {
 
 
 .headtekst {
-  color: #57130C;
+  color: #299FB0;
   padding-left: 38px;
-  font-size: 110px;
+  font-size:55px;
   padding-top: 62px;
   margin-bottom: 60px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 29px;
 }
 
@@ -179,9 +183,9 @@ p {
 /*              INDEX typografie             */
 
 .headteksthome {
-  color: #57130C;
+  color: #299FB0;
   padding-left: 20px;
-  font-size: 110px;
+  font-size: 55px;
   padding-top: 62px;
   padding-bottom: 53px;
 }
@@ -196,10 +200,16 @@ p {
   padding-top: 25px;
 }
 
+.avenirnextfont {
+  width: 244px;
+  padding-left: 22px;
+}
+
+
 /*           STYLEGUIDE     */
 
 .headtekststijlgids {
-  color: #57130C;
+  color: #299FB0;
   padding-left: 38px;
   font-size: 110px;
   margin-bottom: 50px;
@@ -210,9 +220,9 @@ p {
 /*            FOOTER       */
 
 .footer {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Avenir Next", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.6em;
   text-align: center;
 }
@@ -238,7 +248,7 @@ p {
 }
 
 .download {
-  background-color: #57130C;
+  background-color: #299FB0;
   color: white;
 }
 

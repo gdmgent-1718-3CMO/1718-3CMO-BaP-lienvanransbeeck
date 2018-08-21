@@ -3,9 +3,10 @@
 // Color system
 // ------------------------
 
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
 @font-face {
-    font-family: 'bwlight';
-    src: url(../fonts/BarlowCondensed-Light.ttf);
+    font-family: 'Varela Round';
 }
 
 // Greys
@@ -42,13 +43,13 @@ $clientcolor-5:rgba(250,120,120,1);
 
 // Imports
 // Website
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
 // Client specific
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
 // type
-$myfont-family-base: 'Barlow Condensed', sans-serif;
+$myfont-family-base: 'Varela Round', sans-serif;
 $myfont-family-title: $myfont-family-base;
 
 // sizes
@@ -63,7 +64,7 @@ $font-weight-bold: 800;
 //------------------------------
 
 // type
-$clientfont-family-base: 'Barlow Condensed', sans-serif;
+$clientfont-family-base: 'Varela Round', sans-serif;
 $clientfont-family-title: $myfont-family-base;
 
 // sizes

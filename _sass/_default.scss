@@ -1,7 +1,7 @@
 // default-styling
 
 body {
-    font-family: $myfont-family-base;
+    font-family: 'nunito Sans', sans-serif ;;
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
@@ -17,20 +17,22 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: $font-weight-light;
     font-size: 2rem;
-    color: #1E1E1E;
+    color: #f7a713;
 }
 h2 {
     font-weight: $font-weight-light;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color:#299FB0
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
 }
 a {
+    font-family:'Varela Round', sans-serif;
     text-decoration: none;
-    color: #1E1E1E;;
+    color: #808080;;
     &:hover{
         color: #299FB0;
         border-bottom: #299FB0;
@@ -57,7 +59,7 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: #808080;
         margin-right: 18px;
     }    
   }

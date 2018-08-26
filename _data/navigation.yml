@@ -32,6 +32,18 @@
   permalink: toepassingen/
   # fa-icon: icon-info
 
+- name: Digitaal
+  description: Digitaal
+  folder: pages/digitaal/
+  permalink: digitaal/
+  # fa-icon: icon-info
+
+
+- name: Elementen
+  description: Elementen
+  folder: pages/elementen/
+  permalink: elementen/
+  # fa-icon: icon-info
 
 
  
